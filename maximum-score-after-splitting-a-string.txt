@@ -1,0 +1,53 @@
+
+Problem Link: https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/
+
+**********************************************************************************************************
+
+Approach :-
+
+1) Count '1's: Counts the total number of '1's in the string using count.
+2) Initialize Variables:
+     -Sets result to 0 to store the maximum score.
+     -Sets zerosCount to 0 to track the number of '0's encountered.
+3) Iterate Through String: Loops through each character of the string (except the last one):
+     -If the current character is '1', decrements onesCount.
+     -If the current character is '0', increments zerosCount.
+     -Updates result with the maximum of result and zerosCount + onesCount.
+4) Return Maximum Score: Returns the result variable, which holds the best possible score.
+
+
+Key Idea: The approach cleverly avoids explicit string splitting by maintaining a count of '1's and adjusting it as the loop progresses, effectively simulating different splits implicitly.
+Complexity
+
+************************************************************************************************************
+Time complexity:   O(n)
+Space complexity:  O(1)
+************************************************************************************************************
+
+Code:-
+
+  class Solution {
+public:
+    int maxScore(string s) {
+       
+       int onesCount = count(s.begin(), s.end(), '1');
+        
+        int result = 0;
+        int zerosCount = 0;
+        for (int i = 0; i < s.size() - 1; i++) 
+         {
+            if (s[i] == '1') 
+                {
+                   onesCount--;
+                } 
+            else 
+               {
+                   zerosCount++;
+               }
+            
+            result = max(result, zerosCount + onesCount);
+        }
+        
+        return result;
+    }
+}
