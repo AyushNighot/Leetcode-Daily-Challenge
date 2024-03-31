@@ -1,3 +1,13 @@
+//Approach-1 (Brute Force)
+//Find all subarrays and check if min is minK and max is maxK
+
+
+-----------------------------------------------------------------------------------------------
+//Code will be provided soon for brute force
+
+//Approach-2 (Optimal O(n)) - Sliding Window
+
+
 class Solution {
 public:
     long long countSubarrays(vector<int>& nums, int minK, int maxK) {
