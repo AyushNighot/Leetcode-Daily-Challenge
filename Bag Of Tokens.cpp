@@ -2,7 +2,6 @@ class Solution {
 public:
     int bagOfTokensScore(vector<int>& tokens, int power) {
         int  n = tokens.size();
-
         ///sort the tokens
         sort(tokens.begin(),tokens.end());
 
