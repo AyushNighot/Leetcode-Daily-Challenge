@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     string makeGood(string s) {
         ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL);
