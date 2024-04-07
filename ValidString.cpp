@@ -10,7 +10,7 @@ If s[i] is '*', push the index i into stack '*'
 If s[i] is ')', check '(' or '*' appear in stacks. If not -> return false. If yes -> pop()
 Check if index of '(' is smaller than index of '*'(which means '(' appears before '*'). If not -> return false.
 
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Example
 s = "* ( ( ) ( *"
      0 1 2 3 4 5
