@@ -1,5 +1,5 @@
 class Solution {
-public:
+public:  
     int rangeBitwiseAnd(int left, int right) {
         while(left < right )
         {
