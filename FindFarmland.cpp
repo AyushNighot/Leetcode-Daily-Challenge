@@ -7,6 +7,8 @@ During DFS, keep track of the boundaries (min/max row and column) of the current
 Once DFS completes for a region, record the rectangle's coordinates.
 Implement the DFS function recursively or using a stack to traverse adjacent cells.
 Return the list of identified rectangles.
+    
+----------------------------------------------------------------------------------------------
 Code👨🏻‍💻:
 class Solution {
 public:
