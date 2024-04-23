@@ -9,7 +9,6 @@
             
             adj[u].push_back({v, cost});
         }
-        
         queue<pair<int, int>> que;
         que.push({src, 0});
         distance[src] = 0;
