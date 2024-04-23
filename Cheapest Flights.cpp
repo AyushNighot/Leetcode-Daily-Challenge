@@ -1,4 +1,4 @@
-vector<int> distance(n, INT_MAX);
+ vector<int> distance(n, INT_MAX);
         
         unordered_map<int, vector<pair<int, int>>> adj;
         
