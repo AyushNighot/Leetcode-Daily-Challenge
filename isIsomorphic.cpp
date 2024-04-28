@@ -9,7 +9,7 @@ public:
         if(len != t.length()) { // If the lengths of the two strings are different, they can't be isomorphic
             return false;
         }
-        
+    
         for(int i = 0; i < len; i++) { // Iterate through each character of the strings
             if(indexS[s[i]] != indexT[t[i]]) { // Check if the index of the current character in string s is different from the index of the corresponding character in string t
                 return false; // If different, strings are not isomorphic
