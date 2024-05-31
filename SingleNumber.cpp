@@ -15,7 +15,7 @@ Return Result:
 
 The result array, which contains the two numbers that appear only once, is returned.
 C++
-
+  
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
