@@ -4,7 +4,7 @@ So, the second approach will be the same as we discuss above using frequency map
 Let's code this up, you know the tutorial above for this approach!
 
 Here's an explanation of the code:
-
+ 
 Frequency Map Construction:
 
 We iterate over the array and build a frequency map (or hash map) where the keys are the numbers from the array and the values are the counts of those numbers.
