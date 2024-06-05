@@ -7,7 +7,7 @@ Intuition
 For any x cookie size, try to satisfy the maximum possible greed y of left over children. [y <= x] | GREED <= SIZE
 
 *********************************************************************************************************
- 
+   
 Approach
 
 Sort both the GREED [ g ] and COOKIE SIZE [ s ] array in descending order.
