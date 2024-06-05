@@ -2,7 +2,7 @@ Problem Link: https://leetcode.com/problems/assign-cookies
 
 **********************************************************************************************************
 
-Intuition
+Intuition  
 
 For any x cookie size, try to satisfy the maximum possible greed y of left over children. [y <= x] | GREED <= SIZE
 
