@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
 public:
     string fractionAddition(string s) {
         // Vectors to store the numerators and denominators separately
