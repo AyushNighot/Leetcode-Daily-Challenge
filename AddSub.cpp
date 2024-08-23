@@ -13,6 +13,7 @@ public:
             s = "+" + s;
         }
 
+    
         // Parse the string to extract numerators and denominators
         while (i < n) {
             if (s[i] == '/') {
