@@ -9,7 +9,7 @@ public:
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
                 if (isWater[i][j] == 1) {
-                    height[i][j] = 0; // Water cell has height 0
+                    height[i][j] = 0; // Water cell has height 0 
                 } else {
                     if (i > 0) 
                         height[i][j] = min(height[i][j], height[i - 1][j] + 1); // Check from top
