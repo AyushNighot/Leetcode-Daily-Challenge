@@ -11,7 +11,7 @@ public:
                 if (isWater[i][j] == 1) {
                     height[i][j] = 0; // Water cell has height 0 
                 } else {
-                    if (i > 0) 
+                 if (i > 0) 
                         height[i][j] = min(height[i][j], height[i - 1][j] + 1); // Check from top
                     if (j > 0) 
                         height[i][j] = min(height[i][j], height[i][j - 1] + 1); // Check from left
