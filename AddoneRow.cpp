@@ -1,7 +1,7 @@
 class Solution {
 public:
     TreeNode* helper(TreeNode* root, int val, int depth, int currdepth) {
-        if (depth == 1) {
+        if (depth == 1) { 
             TreeNode* new_root = new TreeNode(val);
             new_root->left = root;
             new_root->right = nullptr;
