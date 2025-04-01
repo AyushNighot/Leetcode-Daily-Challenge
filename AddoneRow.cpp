@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
 public:
     TreeNode* helper(TreeNode* root, int val, int depth, int currdepth) {
         if (depth == 1) { 
